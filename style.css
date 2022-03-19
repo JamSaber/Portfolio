@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:0;
+}
+.main-container{
+    height:100vh;
+    display:grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-auto-flow:dense; 
+
+    
+}
+
+#main{
+    grid-column-start: 2;
+    padding:20px;
+    margin 40px;
+    
+}
+#leftside{
+    grid-column-start: 1;
+    padding:20px;
+    margin 40px;
+
+}
+#rightside{
+    grid-column-start: 3;
+    padding:20px;
+    margin 40px;
+}
